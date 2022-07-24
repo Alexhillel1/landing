@@ -1,0 +1,185 @@
+@font-face {
+  font-family: AnticSlab;
+  font-display: swap;
+  src: url("../fonts/AnticSlab-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Cleanwork;
+  font-display: swap;
+  src: url("../fonts/Cleanwork.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2");
+}
+
+.header {
+  padding-top: 56px;
+  padding-left: 69px;
+  padding-bottom: 66px;
+  padding-right: 278px;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin-right: 92px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 144px;
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+}
+.menu__item:not(:last-child) {
+  margin-right: 56px;
+}
+.menu__link {
+  font-family: "Cleanwork";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  color: #fffefe;
+}
+.header__content {
+  margin-bottom: 123px;
+}
+.header__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 160.6%;
+  /* or 154px */
+
+  letter-spacing: -0.02em;
+
+  color: #fcf8f8;
+}
+
+.mafia {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 128.6%;
+  /* or 185px */
+
+  letter-spacing: -0.02em;
+
+  color: #ff0101;
+
+  border-bottom: 3px solid #fe0a0a;
+}
+.vopros {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 128.6%;
+  /* or 154px */
+
+  letter-spacing: -0.02em;
+
+  color: #fcf8f8;
+}
+.header__descr {
+  width: 434px;
+  line-height: 2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #fcf4f4;
+  margin-bottom: 65px;
+}
+
+.header__descr span {
+  font-family: "Antic Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+
+  color: #fcf4f4;
+}
+.btn__account {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #fcf4f4;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 18px 35px;
+  background: #fe0606;
+  box-shadow: 0px 4px 4px #000000;
+  border-radius: 25px;
+
+  margin-right: 75px;
+}
+.join__rooms {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ff0909;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 237px;
+  height: 60px;
+  left: 385px;
+  top: 785px;
+
+  border: 2px solid #ff0606;
+  border-radius: 25px;
+  padding: 18px 52px;
+}
+.header__footer {
+}
+.follow {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+
+  color: #fcf4f4;
+  margin-bottom: 23px;
+}
+.footer__soc {
+  display: flex;
+  align-items: center;
+}
+.footer__soc-item:not(:last-child) {
+  margin-right: 15px;
+}
+.footer__soc-link {
+}
+
+.line {
+  width: 1087px;
+  border: 1px solid rgba(255, 251, 251, 0.74);
+}
